@@ -1,11 +1,9 @@
 # Agentic RAG
 
 ## Overview
-This project is an aimple **Agentic Retrieval-Augmented Generation (RAG) system** that combines document retrieval, memory, planning, reasoning, and tool use to answer user queries. Instead of using a single retrieval step, the system is organized into modular agents. The goal is to create different distrubuted frameworks of agents working together, such a asynchrous agent.
+This project is an simple **Agentic Retrieval-Augmented Generation (RAG) system** that combines document retrieval, memory, planning, reasoning, and tool use to answer a set of four  user queries. The goal is to develop distributed agent frameworks that collaborate to solve tasks, one framework is asynchronous agent architecture.
 
 ## System Architecture
-The system follows this workflow:
-
 User Query  
 → Planner Agent  
 → Retrieval / Tools  
@@ -52,7 +50,7 @@ Run the project:
 python main.py
 ```
 
-## Tech Stack
+## Tech
 - Python
 - LangChain
 - OpenAI API
