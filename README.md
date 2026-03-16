@@ -5,6 +5,7 @@ This project is an aimple **Agentic Retrieval-Augmented Generation (RAG) system*
 
 ## System Architecture
 The system follows this workflow:
+
 User Query  
 → Planner Agent  
 → Retrieval / Tools  
@@ -14,13 +15,13 @@ User Query
 
 ## Project Components
 - `agents/agent.py` - main agent orchestration  
-- `agents/planner.py` - task planning logic  
-- `agents/reasoner.py` - reasoning over retrieved context  
-- `agents/memory.py` - memory handling across steps  
-- `agents/tools.py` - tool integration for retrieval/actions  
+- `agents/planner.py`   
+- `agents/reasoner.py` 
+- `agents/memory.py` 
+- `agents/tools.py` - tool integration  
 - `data/docs.csv` - source documents  
 - `vectorstore/` - FAISS vector database  
-- `main.py` - entry point for running the system  
+- `main.py`
 
 ## Installation
 
