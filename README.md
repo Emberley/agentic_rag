@@ -1,19 +1,10 @@
 # Agentic RAG
 
 ## Overview
-This project is an **Agentic Retrieval-Augmented Generation (RAG) system** that combines document retrieval, memory, planning, reasoning, and tool use to answer user queries more effectively. Instead of using a single retrieval step, the system is organized into modular agents that can plan tasks, retrieve relevant context, reason over results, and generate responses.
+This project is an aimple **Agentic Retrieval-Augmented Generation (RAG) system** that combines document retrieval, memory, planning, reasoning, and tool use to answer user queries. Instead of using a single retrieval step, the system is organized into modular agents. The goal is to create different distrubuted frameworks of agents working together, such a asynchrous agent.
 
-## Features
-- Retrieval-Augmented Generation with document search
-- Modular agent-based design
-- Planner, memory, reasoner, and tool components
-- FAISS-based vector storage for retrieval
-- Environment variable support with `.env`
-- Extensible architecture for future agent workflows
-
-## Architecture
+## System Architecture
 The system follows this workflow:
-
 User Query  
 → Planner Agent  
 → Retrieval / Tools  
@@ -71,10 +62,6 @@ python main.py
 
 ## Future Improvements
 - Multi-agent collaboration
-- Persistent conversation memory
-- PDF / website document ingestion
-- Retrieval and answer quality evaluation
-- Simple web interface
 
 ## License
 MIT License
