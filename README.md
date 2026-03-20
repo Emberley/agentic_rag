@@ -1,7 +1,7 @@
 # Agentic RAG
 
 ## Overview
-This project is an simple **Agentic Retrieval-Augmented Generation (RAG) system** that combines document retrieval, memory, planning, reasoning, and tool use to answer a set of four  user queries. The goal is to develop distributed agent frameworks that collaborate to solve tasks, one framework is asynchronous agent architecture.
+This project is an simple agentic retrieval-augmented generation (RAG) system that combines document retrieval, memory, planning, reasoning, and tool use to answer a set of four user queries. The goal is to develop distributed agent frameworks that collaborate to solve tasks, one framework is asynchronous agent architecture.
 
 ## System Architecture
 User Query  
@@ -12,14 +12,13 @@ User Query
 → Final Response
 
 ## Project Components
-- `agents/agent.py` - main agent orchestration  
+- `agents/agent.py` - main agent 
 - `agents/planner.py`   
 - `agents/reasoner.py` 
 - `agents/memory.py` 
 - `agents/tools.py` - tool integration  
 - `data/docs.csv` - source documents  
 - `vectorstore/` - FAISS vector database  
-- `main.py`
 
 ## Installation
 
@@ -60,7 +59,7 @@ python main.py
 - Python Dotenv
 
 ## Future Improvements
-- Multi-agent collaboration
+- Multi-agent collaboration and different framework orchestration used for Agentic systems.
 
 ## License
 MIT License
