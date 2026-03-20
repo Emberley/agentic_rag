@@ -9,7 +9,7 @@ User Query
 → Retrieval / Tools  
 → Memory Agent  
 → Reasoner Agent  
-→ Final Response
+→ LLM Response
 
 ## Project Components
 - `agents/agent.py` - main agent 
